@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Roboto";
+}
+
+.wrapper {
+   min-height: 100vh;
+   background-image: url("../img/bg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center right;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+/* header */
+.header {
+   padding-top: 46px;
+   display: flex;
+   justify-content: flex-start;
+   margin-bottom: 240px;
+}
+
+.menu ul {
+   display: flex;
+   margin-left: 34px;
+   margin-top: 38px;
+}
+
+.menu li + li {
+   margin-left: 25px;
+}
+
+.menu a {
+   color: #ffffff;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 28px;
+   text-decoration: none;
+}
+
+.menu a:hover {
+   color: #a19d80;
+}
+
+/* slider */
+.item {
+   text-align: left;
+   color: #ffffff;
+}
+
+.title {
+   font-size: 120px;
+   font-weight: 400;
+   line-height: 141px;
+}
+
+.text {
+   font-size: 36px;
+   font-weight: 400;
+   line-height: 42px;
+}
+
+.slick-dots {
+   list-style: none;
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 46px;
+}
+
+.slick-dots li + li {
+   margin-left: 20px;
+}
+
+.slick-dots button {
+   border: none;
+   padding: 0;
+   font-size: 0;
+   width: 20px;
+   height: 20px;
+   background: #ffffff;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.slick-dots button:hover {
+   background: #a19d80;
+}
+
+
+
